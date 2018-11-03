@@ -1,9 +1,10 @@
 import React, {Componenet} from 'react'
+import ReactDOM from 'react-dom'
 import Square from './Square.js'
 
 class Board extends Componenet {
     renderSquare(i){
-        return <Square/>
+        return <Square value={i}/>
     }
 
     render(){

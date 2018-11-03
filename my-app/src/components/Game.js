@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+import ReactDOM from 'react-dom'
+
 import Board from './Board.js'
 
 class Game extends Component {
